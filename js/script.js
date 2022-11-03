@@ -9,8 +9,7 @@ if (navigator.serviceWorker) {
 function calculate() {
   const length = parseInt(document.getElementById("pay").value)
 
-  const area = (5/9) * (length - 32)
-
+  const area = (5 / 9) * (length - 32)
 
   document.getElementById("area").innerHTML =
     "Celcius will be: " + area.toFixed(4) + "°C"
